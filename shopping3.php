@@ -12,6 +12,7 @@ head();
 
 
 ?>
+<title>Shoppingpage3</title>
 </head>
 
 <body>

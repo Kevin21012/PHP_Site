@@ -12,6 +12,7 @@ head();
 
 
 ?>
+<title>LOGOUT</title>
 </head>
 
 <body>

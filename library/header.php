@@ -8,7 +8,8 @@ Your section -->
 
 function getPost($name)
 
-{
+{        
+        error_reporting(E_ALL ^ E_NOTICE);
         if ( isset($_POST[$name]))
        {
         echo  htmlspecialchars($_POST[$name]);
@@ -16,7 +17,7 @@ function getPost($name)
         echo "";
 if ( $_POST["usr"] == "login" and $_POST["passwd"] == "passwd" )
 {
-
+ error_reporting(E_ALL ^ E_NOTICE);
  header("Location: landing.php");
 
 }
@@ -25,9 +26,9 @@ if ( $_POST["usr"] == "login" and $_POST["passwd"] == "passwd" )
 function head(){
 
 
-echo '<p>Matthew Bennett</p>';
+echo '<p>Matthew M Bennett</p>';
 echo '<p>CSC-155</p>';
-echo '<img src="https://static.wikia.nocookie.net/minecraft/images/8/81/Dirt_server.png/revision/latest?cb=20210121213114" height="100" width="100">';
+echo '<img src="https://static.wikia.nocookie.net/minecraft/images/f/fe/GrassNew.png/revision/latest/scale-to-width-down/340?cb=20190903234415"  height="100" width="100">';
 
 
 

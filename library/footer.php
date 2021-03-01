@@ -6,10 +6,8 @@ Your section -->
 function footer(){
 
 
-
-
-
-
+echo '<p>Links</p>';
+echo '<br>----------------</br>';
 echo '<a href="landing.php">Landing</a><br>';
 echo '<a href="logout.php">Lougout</a><br>';
 echo '<a href="shopping1.php">Shopping1</a><br>';
