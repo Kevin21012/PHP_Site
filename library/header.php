@@ -28,7 +28,7 @@ function head(){
 
 echo '<p>Matthew M Bennett</p>';
 echo '<p>CSC-155</p>';
-echo '<img src="https://static.wikia.nocookie.net/minecraft/images/f/fe/GrassNew.png/revision/latest/scale-to-width-down/340?cb=20190903234415"  height="100" width="100">';
+echo '<img src="https://static.wikia.nocookie.net/minecraft/images/4/40/Block_of_Diamond.png/revision/latest?cb=20200825193522"  height="100" width="100">';
 
 
 
