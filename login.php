@@ -6,10 +6,10 @@ Your section -->
 <head>
 <title>Login to the Website</title>
 <?php
+error_reporting(E_ALL ^ E_NOTICE);
 include 'library/header.php';
 echo getPost($name);
 echo head();
-error_reporting(E_ALL ^ E_NOTICE);
 
 ?>
 <body>
